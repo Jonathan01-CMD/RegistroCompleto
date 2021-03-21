@@ -26,8 +26,11 @@ namespace RegistroCompleto.UI.Registros
             if ((UsuarioTextBox.Text == "User") && (ClaveTextBox.Text != "User"))
                 MessageBox.Show("Contraseña incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-            if ((UsuarioTextBox.Text != "User") && (ClaveTextBox.Text != "User"))
-                MessageBox.Show("Usuario y Contraseña Incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            if ((UsuarioTextBox.Text != "") && (ClaveTextBox.Text != ""))
+            {
+                if ((UsuarioTextBox.Text != "User") && (ClaveTextBox.Text != "User"))
+                    MessageBox.Show("Usuario y Contraseña Incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
             if ((UsuarioTextBox.Text != "") && (ClaveTextBox.Text != "")){
 
@@ -37,8 +40,7 @@ namespace RegistroCompleto.UI.Registros
                     main.Show();
                     this.Hide();
                 }
-                
-                
+               
             }
         }
 
@@ -52,7 +54,7 @@ namespace RegistroCompleto.UI.Registros
 
         private void ClaveTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(e.KeyChar == Convert.ToChar(Keys.Enter))
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
             {
                 if ((UsuarioTextBox.Text == "") && (ClaveTextBox.Text == ""))
                     MessageBox.Show("No puede dejar los Campos vacios", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -63,8 +65,11 @@ namespace RegistroCompleto.UI.Registros
                 if ((UsuarioTextBox.Text == "User") && (ClaveTextBox.Text != "User"))
                     MessageBox.Show("Contraseña incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                if ((UsuarioTextBox.Text != "User") && (ClaveTextBox.Text != "User"))
-                    MessageBox.Show("Usuario y Contraseña Incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if ((UsuarioTextBox.Text != "") && (ClaveTextBox.Text != ""))
+                {
+                    if ((UsuarioTextBox.Text != "User") && (ClaveTextBox.Text != "User"))
+                        MessageBox.Show("Usuario y Contraseña Incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
 
                 if ((UsuarioTextBox.Text != "") && (ClaveTextBox.Text != ""))
                 {
