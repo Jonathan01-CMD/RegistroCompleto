@@ -71,6 +71,7 @@ namespace RegistroCompleto.UI.Registros
             this.UsuarioTextBox.Name = "UsuarioTextBox";
             this.UsuarioTextBox.Size = new System.Drawing.Size(125, 23);
             this.UsuarioTextBox.TabIndex = 3;
+            this.UsuarioTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.UsuarioTextBox_KeyPress);
             // 
             // ClaveTextBox
             // 
@@ -78,6 +79,7 @@ namespace RegistroCompleto.UI.Registros
             this.ClaveTextBox.Name = "ClaveTextBox";
             this.ClaveTextBox.Size = new System.Drawing.Size(125, 23);
             this.ClaveTextBox.TabIndex = 4;
+            this.ClaveTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ClaveTextBox_KeyPress);
             // 
             // InicialButton
             // 
