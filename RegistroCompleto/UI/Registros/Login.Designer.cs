@@ -88,7 +88,7 @@ namespace RegistroCompleto.UI.Registros
             this.InicialButton.Name = "InicialButton";
             this.InicialButton.Size = new System.Drawing.Size(153, 28);
             this.InicialButton.TabIndex = 5;
-            this.InicialButton.Text = "Inicial";
+            this.InicialButton.Text = "Ingresar";
             this.InicialButton.UseVisualStyleBackColor = true;
             this.InicialButton.Click += new System.EventHandler(this.InicialButton_Click);
             // 
