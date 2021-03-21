@@ -173,6 +173,16 @@ namespace RegistroCompleto.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap remover_archivo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("remover-archivo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap save_78348 {
             get {
                 object obj = ResourceManager.GetObject("save_78348", resourceCulture);
