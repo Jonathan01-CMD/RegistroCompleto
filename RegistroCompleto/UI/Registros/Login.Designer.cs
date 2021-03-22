@@ -77,6 +77,7 @@ namespace RegistroCompleto.UI.Registros
             // 
             this.ClaveTextBox.Location = new System.Drawing.Point(34, 108);
             this.ClaveTextBox.Name = "ClaveTextBox";
+            this.ClaveTextBox.PasswordChar = '*';
             this.ClaveTextBox.Size = new System.Drawing.Size(125, 23);
             this.ClaveTextBox.TabIndex = 4;
             this.ClaveTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ClaveTextBox_KeyPress);
